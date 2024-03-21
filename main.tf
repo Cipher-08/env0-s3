@@ -25,3 +25,11 @@ resource "aws_s3_bucket" "env0-bucket2" {
     Owner = "Saksham"
   }
 }
+
+variable "aws_access_key" {
+  
+}
+
+variable "aws_secret_key" {
+  
+}

@@ -20,7 +20,7 @@ resource "aws_s3_bucket" "env0-bucket2" {
   acl    = "private"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My bucket of env0"
     Environment = "Dev"
     Owner = "Saksham"
   }

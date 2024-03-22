@@ -15,7 +15,7 @@ provider "aws" {
   secret_key = var.aws_secret_key
 }
 
-resource "aws_s3_bucket" "env0-bucket2" {
+resource "aws_s3_bucket" "env0-bucket234" {
   bucket = "env0-s3-bucket-na"
   acl    = "private"
 
